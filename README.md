@@ -12,7 +12,7 @@ Powered by [Scrapfly](https://scrapfly.io), this project allows you to automate 
 - ✅ Supports **pagination** through the "Load more" button
 - ✅ Fully asynchronous for speed and efficiency
 - ✅ Customize search with `since:` and `until:` date filters
-- ✅ It is also possible to customize the number of pages loaded through "Load more", by changing the function call parameter, in the line: await scrape_load_more(url, all_tweets, max_load_more=<num_pages>). The default value is 50 pages.
+- ✅ It is also possible to customize the number of pages loaded through "Load more", by changing the function call parameter, in the line: `await scrape_load_more(url, all_tweets, max_load_more=<num_pages>)`. The default value is 50 pages.
 
 ---
 
